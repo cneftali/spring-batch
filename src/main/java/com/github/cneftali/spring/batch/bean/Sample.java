@@ -1,4 +1,4 @@
-package com.github.cneftali.spring.batch.ex02.bean;
+package com.github.cneftali.spring.batch.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
