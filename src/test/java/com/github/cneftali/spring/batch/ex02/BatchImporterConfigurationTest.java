@@ -1,4 +1,4 @@
-package com.github.cneftali.spring.batch.ex01;
+package com.github.cneftali.spring.batch.ex02;
 
 import java.util.Date;
 
@@ -16,9 +16,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
+import com.github.cneftali.spring.batch.ex02.conf.BatchImporterConfiguration;
+
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { HelloTaskletConf.class }, loader = AnnotationConfigContextLoader.class)
-public class HelloTaskletTest {
+@ContextConfiguration(classes = { BatchImporterConfiguration.class }, loader = AnnotationConfigContextLoader.class)
+public class BatchImporterConfigurationTest {
 
 	@Autowired
 	private JobLauncher jobLauncher;
